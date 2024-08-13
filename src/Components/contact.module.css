@@ -1,0 +1,437 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+    gap: 80px;
+    margin-bottom: 100px;
+  }
+  
+  .contactheading {
+    color: #0097d7;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  .getwork {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 33px;
+    margin: 20px 0px 20px 0px;
+    height: 55px;
+    border-bottom: 3px solid #0097d7;
+  }
+  
+  .nameEmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0px 15px 0px;
+    border: 2.5px solid rgb(71, 236, 25);
+    width: fit-content;
+  }
+  
+  .name-email input {
+    background-color: #3a3a3a;
+    height: 45px;
+    width: 300px;
+    border-radius: 50px;
+    border: 2px solid rgb(178, 178, 178);
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  ::placeholder {
+    font-size: 17px;
+    color: rgb(139, 139, 139);
+  }
+  
+  .message {
+    width: 100%;
+    background-color: #3a3a3a;
+    border-radius: 30px;
+    border: 2px solid rgb(178, 178, 178);
+    padding: 15px 15px 5px 15px;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .sendMessage {
+    width: 150px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 84px;
+    border: 3px solid #0097d7;
+    background-color: transparent;
+    font-size: 18px;
+    color: #0097d7;
+    transition: all .2s;
+    text-decoration: none;
+  }
+  
+  .sendMessage:hover {
+    transition: all .2s;
+    color: #fff;
+  }
+  
+  .contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .infotypeinfogive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .infotype {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .giveinfo {
+    color: white;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width:1400px) {
+    #contact {
+      flex-direction: column;
+    }
+  
+    .contactinfo {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (max-width:1000px) {
+  
+    .home,
+    #experience_div,
+    #projects {
+      transform: scale(0.8);
+      margin-top: -90px;
+      padding: 150px 0px 0px 0px;
+    }
+  
+    .particular_service_div {
+      width: 300px;
+    }
+  
+    #contact {
+      transform: scale(0.9);
+    }
+  }
+  
+  @media screen and (max-width:890px) {
+    .particular_service_div {
+      width: 280px;
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width:830px) {
+    .particular_service_div {
+      width: 270px;
+      padding: 1rem;
+    }
+  
+    .nav a {
+      font-size: 20px;
+    }
+  
+    .responsive {
+      right: 35px;
+      top: 115px;
+      gap: 30px;
+    }
+  
+    .top-button {
+      padding: 15px;
+      gap: 7px;
+    }
+  
+    .pic {
+      top: 70px;
+      left: -820px;
+    }
+  
+    @keyframes picToLeft {
+      from {
+        top: 80px;
+        left: -820px;
+      }
+  
+      to {
+        top: 80px;
+        left: -150px;
+      }
+    }
+  
+    .text {
+      top: 500px;
+      left: -230px;
+    }
+  
+    .home-content {
+      height: 860px;
+    }
+  
+    .home {
+      transform: scale(1);
+      padding: 100px 0px 0px 0px;
+    }
+  
+    .experience_div_main_content {
+      flex-direction: column;
+      row-gap: 80px;
+    }
+  
+    #experience_div {
+      transform: scale(1);
+      margin: -60px auto 60px auto;
+    }
+  }
+  
+  @media screen and (max-width:810px) {
+    .project-container {
+      flex-direction: column;
+    }
+  
+    .project-image {
+      border-top-left-radius: 30px;
+      height: 360px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 0px;
+      width: -webkit-fill-available;
+    }
+  
+    .project-image img {
+      width: 97%;
+      height: 96%;
+    }
+  
+    .project-info {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 30px;
+    }
+  
+    .all-projects {
+      gap: 70px;
+    }
+  
+    .border-rad-info {
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 0px;
+    }
+  
+    .border-rad-img {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 30px;
+    }
+  
+    #projects {
+      margin: -150px auto 0px auto;
+    }
+  
+    #skills {
+      margin: -150px auto 0px auto;
+    }
+  }
+  
+  @media screen and (max-width:800px) {
+    .particular_service_div {
+      width: 245px;
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width:730px) {
+    .particular_service_div {
+      width: 340px;
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width:720px) {
+    .slider {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width:700px) {
+    .skill-img img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  
+  @media screen and (max-width:657px) {
+    .skill-img img {
+      height: 95px;
+      width: 95px;
+    }
+  }
+  
+  @media screen and (max-width:660px) {
+    .contactinfo {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width:657px) {
+    .skill-img img {
+      height: 90px;
+      width: 90px;
+    }
+  
+    .skill-img {
+      margin: 26px 0px 0px 0px;
+    }
+  }
+  
+  @media screen and (max-width:616px) {
+    .skill-img {
+      margin: 26px 0px 0px 0px;
+    }
+  }
+  
+  @media screen and (max-width:550px) {
+    .what_i_can_do {
+      height: 82px;
+    }
+  }
+  
+  @media screen and (max-width:560px) {
+    .text {
+      top: 440px;
+    }
+  
+    .pic {
+      width: 250px;
+    }
+  
+    @keyframes picToLeft {
+      from {
+        top: 80px;
+        left: -850px;
+      }
+  
+      to {
+        top: 80px;
+        left: -120px;
+      }
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+    .name-email {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .logo img {
+      width: 130px;
+      height: 50px;
+    }
+  
+    .top-button {
+      width: 130px;
+      height: 35px;
+      font-size: 11px;
+    }
+  
+    .top-button img {
+      height: 30px;
+    }
+  
+    .icon {
+      font-size: 30px;
+    }
+  
+    h1 {
+      width: 425px !important;
+      font-size: 80px !important;
+      line-height: 10px !important;
+    }
+  
+    .text {
+      transform: scale(0.9);
+      left: -245px;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    #projects {
+      transform: scale(0.7);
+      margin: -260px auto 0px auto;
+    }
+  
+    #experience_div {
+      transform: scale(0.9);
+      margin: -65px auto 0px auto;
+    }
+  }
+  
+  @media screen and (max-width:460px) {
+    .all-projects {
+      transform: scale(0.9);
+    }
+  
+    .logo img {
+      width: 100px;
+      height: 40px;
+    }
+  
+    .top-button {
+      width: 110px;
+      /* height: 0px; */
+      font-size: 10px;
+      gap: 0px;
+    }
+  
+    .top-button img {
+      height: 25px;
+    }
+  
+    .icon {
+      font-size: 25px;
+    }
+  
+    .text {
+      transform: scale(0.8);
+    }
+  
+    #experience_div {
+      transform: scale(0.8);
+      margin: -210px auto 0px auto;
+    }
+  
+    #projects {
+      margin: -360px auto 0px auto;
+    }
+  
+    #skills {
+      margin: -280px auto 0px auto;
+    }
+  }
+  
+  @media screen and (max-width:410px) {
+    .text {
+      transform: scale(0.7);
+    }
+  }

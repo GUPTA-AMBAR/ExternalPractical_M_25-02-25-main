@@ -1,0 +1,98 @@
+.educationHeader{
+  color: bisque;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+/*list1*/
+.educationList1{
+  width: 350px;
+  height: 100px;
+  color: aquamarine;
+  /* display: flex;
+  justify-content: flex-end; */
+  margin-left: 780px;
+  margin-right: 380px;
+  margin-top: 50px;
+}
+.educationList1:hover{
+  transform: translate(100px);
+  transition: all 0.9s ease-in;
+}
+.icon{
+  text-align: center;
+  color: aqua;
+  margin-right: 20px;
+  margin-top: 3px;
+  font-size: 30px;
+}
+.kietimage1{
+  margin-left: 300px;
+  margin-top: 70px;
+  width: 1px;
+  height: 1px;
+}
+.kietimage1:hover{
+  transform: scale(1.1);
+}
+
+/*list2*/
+.educationList2{
+  color : gold;
+  /* display: flex;
+  justify-content: flex-start; */
+  margin-left: 320px;
+  margin-top: 9px;
+
+}
+.educationList2:hover{
+  transform: translate(80px);
+  transition: all 0.7s ease-out;
+}
+.icon{
+  text-align: center;
+  color: aqua;
+  margin-right: 20px;
+  margin-top: 3px;
+  font-size: 30px; 
+}
+.heritageimage{
+  margin-left: 900px;
+  margin-top: 120px;
+  width: 1px;
+  height: 1px;
+  border: 2px solid aqua;
+}
+.heritageimage:hover{
+  transform: scale(1.1);
+}
+
+/*list3*/
+.educationList3{
+  color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 330px;
+  margin-top: 1px;
+  margin-bottom: 40px;
+}
+.educationList3:hover{
+  transform: translate(100px);
+  transition: all 0.9s ease-in-out;
+}
+.icon{
+  text-align: center;
+  color: aqua;
+  margin-right: 20px;
+  margin-top: 3px;
+  font-size: 30px;
+}
+.heritageimage4{
+  margin-left: 300px;
+  margin-top: 200px;
+  width: 1px;
+  height: 1px;
+}
+.heritageimage4:hover{
+  transform: scale(1.3);
+}

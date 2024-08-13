@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text{
+    width: 500px;
+    height: 360px;
+    color: rgb(203, 200, 200);
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 170px;
+    
+    
+}
+
+.image{
+  width: 400px;
+  height: 400px; 
+  border-radius: 20%;
+  margin-top: 90px;
+  margin-left: 180px;
+} 
+.image1{
+  transition: all 1.5s ease-in;
+
+}
+
+.secText{
+  color: blue;
+  font-weight: bold;
+  text-shadow: 0 0 5px greenyellow , 0 0 15px greenyellow , 0 0 25px greenyellow  ,0 0 100px greenyellow ;
+ 
+}
+
+
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
+  .glow {
+    font-size: 2em;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40,end), blink .75s step-end infinite;
+  }
+
+  .followme {
+    margin-left: 860px;
+    color: rgb(221, 7, 142);
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 25px white, 0 0 30px white, 0 0 35px white;
+  }
+
+  .badges{
+    margin-top: 10px;
+    margin-left: 860px;
+  }
+.badge1{
+  color: blue;
+  font-size: 30px;
+}
+.badge2{
+  color: rgb(252, 175, 69);
+  margin-left: 20px;
+  font-size: 36px;
+}
+.badge3{
+  color: rgb(16, 243, 220);
+  margin-left: 20px;
+  font-size: 36px;
+}

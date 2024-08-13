@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(230, 66, 61); 
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 25px white, 0 0 30px white, 0 0 35px white; 
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; 
+}
+
+.card{
+    width: 300px;
+    display: flex;
+    margin-left: 130px;
+    margin-top: 55px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(244, 2, 2, 0.2);
+    color: rgb(60, 22, 25);
+}
+.card:hover{
+    transform: scale(1.14);
+  }

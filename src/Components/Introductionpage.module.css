@@ -1,0 +1,10 @@
+
+.button{
+    margin-right: 50px;
+    transition: all 0.2s ease-in;
+    
+}
+.button:hover{
+    transform: scale(1.8);
+}
+
