@@ -1,5 +1,5 @@
 import styles from "./about.module.css";
-import myImage from './aboutImage/ambar-portfoliol.png';
+import myImage from './aboutImage/ambar-portfolio-photo.jpg';
 import { BsLinkedin } from "react-icons/bs";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";

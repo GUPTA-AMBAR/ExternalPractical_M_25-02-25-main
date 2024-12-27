@@ -5,13 +5,52 @@ import location from './contactImage/location.png';
 
 
 const Contact=()=>{
+
+    
+                                   // template for connection of my email with the help of email .js
+
+    // const sendEmail = (e) => {
+    //     e.preventDefault(); // Prevent page reload
+    
+    //     emailjs
+    //       .sendForm(
+    //         "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
+    //         "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+    //         e.target,           // Form element
+    //         "YOUR_USER_ID"      // Replace with your EmailJS user ID
+    //       )
+    //       .then(
+    //         (response) => {
+    //           alert("Email sent successfully!");
+    //           console.log("SUCCESS!", response.status, response.text);
+    //         },
+    //         (error) => {
+    //           alert("Failed to send the email. Please try again.");
+    //           console.error("FAILED...", error);
+    //         }
+    //       );
+    
+    //     e.target.reset(); // Clear the form after submission
+    //   };
+
+
+
+
+
+
+
+
+
+
+
+
 return(
 
 <section className= {`${styles.contact}`}>
 <div className={`${styles.input}`}>
     <p className={`${styles.contactheading}`}>CONTACT US</p>
     <p className={`${styles.getwork}`}>Get we contact work</p>
-    <form action="">
+    <form onSubmit={sendEmail}>
         <div>
             <div className={`${styles.nameEmail}`}>
                 <input type="text" placeholder="Name" required/>
@@ -53,3 +92,19 @@ return(
 }
 
 export default Contact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
