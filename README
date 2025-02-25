@@ -16,8 +16,8 @@ This is my personal portfolio website built using React and Vite. It showcases m
 🛠 Tech Stack
 
 1-Frontend: React, Vite, Tailwind CSS /Bootstrap CSS/ CSS / Styled Components
-
-2-Deployment: Vercel 
+2-Sending-Email : email.js
+3-Deployment: Vercel 
 
 
 📂 Project Structure
